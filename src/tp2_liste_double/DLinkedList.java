@@ -1,6 +1,6 @@
 package tp2_liste_double;
 
-/// 1.1.6
+/// 1.1.6 et 1.1.7
 
 public class DLinkedList {
     private DNode header, trailer;
