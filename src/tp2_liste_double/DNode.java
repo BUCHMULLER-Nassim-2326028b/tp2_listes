@@ -1,16 +1,16 @@
 package tp2_liste_double;
 
 public class DNode {
-    private String element;
+    private int element;  // L'élément est un int maintenant
     private DNode next, prev;
-    
-    public DNode(String e, DNode p, DNode n) {
+
+    public DNode(int e, DNode p, DNode n) {
         element = e;
         prev = p;
         next = n;
     }
 
-    public String getElement() {
+    public int getElement() {
         return element;
     }
 
@@ -22,7 +22,7 @@ public class DNode {
         return prev;
     }
 
-    public void setElement(String newElem) {
+    public void setElement(int newElem) {
         element = newElem;
     }
 
