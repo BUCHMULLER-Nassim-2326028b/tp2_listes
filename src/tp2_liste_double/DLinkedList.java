@@ -2,6 +2,9 @@ package tp2_liste_double;
 
 /// 1.1.6 et 1.1.7
 
+/// 1.1.8 - pour les ajouts/suppressions, la liste doublement chaînée est plus rapide
+//          pour le parcours de la liste, la liste simplement chaînée est plus rapide
+
 public class DLinkedList {
     private DNode header, trailer;
     private long size;
